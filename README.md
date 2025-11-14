@@ -1,3 +1,16 @@
+# GUI-MEDSAM is a napari GUI for MedSAM2
+### MedSAM2 readme is copied below
+
+#### Installation steps:
+1. Clone this repository: `git clone <repository address>` 
+2. Enter the dictionary of the repository `cd GUI-MEDSAM`
+3. Create a python virtual environment (recommended) `python -m venv .venv`
+4. Activate the virtual environment `source .venv/bin/activate`
+5. Install the required packages `pip install .`
+6. Download the model checkpoints: `bash download.sh`
+7. Run the GUI with `python main.py`
+
+
 # MedSAM2
 <div align="center">
 
